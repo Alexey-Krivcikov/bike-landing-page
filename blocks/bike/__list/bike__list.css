@@ -1,0 +1,7 @@
+.bike__list {
+  padding: 0;
+  margin: 25px 0 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
