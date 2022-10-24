@@ -1,82 +1,193 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Document</title>
-</head>
-
-<body class="root">
-
-  <header class="header">
-    <div class="container">
-      <div class="header__inner">
-        <a class="logo" href="#">
-          <img class="logo__img" src="./images/logo.svg" alt="логотип">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#" class="menu__link">описание</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">характеристики</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">стоимость</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="bike">
-    <div class="container">
-      <div class="bike__inner">
-        <div class="bike__column">
-          <h1 class="bike__title">Xiaomi Himo C26</h1>
-          <p class="bike__subtitle">Электрический велосипед</p>
-          <p class="bike__text">Полная свобода передвижения и надежный транспорт для путешествий на любые расстояния</p>
-          <p class="bike__text">HIMO C26 – это новый электровелосипед от Xiaomi, который создан как для езды по городу, так и бездорожью. Он имеет мощный двигатель и емкий аккумулятор, благодаря которым способен проезжать на одном заряде до 100 км, что определенно выше, чем у большинства конкурентов. А большие колеса с пневматическими шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное сидение делают каждую поездку гораздо приятнее.</p>
-          <a href="#" class="bike__link">заказать</a>
+  <body class="root">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <img class="logo__img" src="./images/logo.svg" alt="логотип" />
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">описание</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">характеристики</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">стоимость</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="bike__column bike__column-slider">
-          <div class="bike-slider">
-            <img class="bike-slider__item" src="./images/bike_1.jpg" alt="Электрический велосипед">
-            <img class="bike-slider__item" src="./images/bike_2.jpg" alt="Электрический велосипед">
-            <img class="bike-slider__item" src="./images/bike_3.jpg" alt="Электрический велосипед">
-            <img class="bike-slider__item" src="./images/bike_4.jpg" alt="Электрический велосипед">
+      </div>
+    </header>
+
+    <section class="bike">
+      <div class="container">
+        <div class="bike__inner">
+          <div class="bike__column">
+            <h1 class="bike__title">Xiaomi Himo C26</h1>
+            <p class="bike__subtitle">Электрический велосипед</p>
+            <p class="bike__text">
+              Полная свобода передвижения и надежный транспорт для путешествий
+              на любые расстояния
+            </p>
+            <p class="bike__text">
+              HIMO C26 – это новый электровелосипед от Xiaomi, который создан
+              как для езды по городу, так и бездорожью. Он имеет мощный
+              двигатель и емкий аккумулятор, благодаря которым способен
+              проезжать на одном заряде до 100 км, что определенно выше, чем у
+              большинства конкурентов. А большие колеса с пневматическими
+              шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное
+              сидение делают каждую поездку гораздо приятнее.
+            </p>
+            <a href="#" class="bike__link">заказать</a>
           </div>
-          <ul class="bike__list">
-            <li class="bike__list-item">
-              <p class="bike__list-title">до 100 км</p>
-              <p class="bike__list-subtitle">Запас хода</p>
-            </li>
-            <li class="bike__list-item">
-              <p class="bike__list-title">25 км/ч</p>
-              <p class="bike__list-subtitle">Макс корость</p>
-            </li>
-            <li class="bike__list-item">
-              <p class="bike__list-title">3 режима езды</p>
-              <p class="bike__list-subtitle">механический, гибридный, электрический</p>
-            </li>
-            <li class="bike__list-item">
-              <p class="bike__list-title">25 кг</p>
-              <p class="bike__list-subtitle">вес</p>
-            </li>
-          </ul>
+          <div class="bike__column bike__column-slider">
+            <div class="bike-slider">
+              <img
+                class="bike-slider__item"
+                src="./images/bike_1.jpg"
+                alt="Электрический велосипед"
+              />
+              <img
+                class="bike-slider__item"
+                src="./images/bike_2.jpg"
+                alt="Электрический велосипед"
+              />
+              <img
+                class="bike-slider__item"
+                src="./images/bike_3.jpg"
+                alt="Электрический велосипед"
+              />
+              <img
+                class="bike-slider__item"
+                src="./images/bike_4.jpg"
+                alt="Электрический велосипед"
+              />
+            </div>
+            <ul class="bike__list">
+              <li class="bike__list-item">
+                <p class="bike__list-title">до 100 км</p>
+                <p class="bike__list-subtitle">Запас хода</p>
+              </li>
+              <li class="bike__list-item">
+                <p class="bike__list-title">25 км/ч</p>
+                <p class="bike__list-subtitle">Макс корость</p>
+              </li>
+              <li class="bike__list-item">
+                <p class="bike__list-title">3 режима езды</p>
+                <p class="bike__list-subtitle">
+                  механический, гибридный, электрический
+                </p>
+              </li>
+              <li class="bike__list-item">
+                <p class="bike__list-title">25 кг</p>
+                <p class="bike__list-subtitle">вес</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="info info_place_root">
+      <div class="container">
+        <div class="info__inner">
+          <img
+            class="info__img"
+            src="./images/info_img.jpg"
+            alt="Девушка на велосипеде"
+          />
+          <div class="info__list">
+            <div class="info__item">
+              <h2 class="info__item-title">Комфорт и безопасность от HIMO</h2>
+              <p class="info__item-text">
+                Электровелосипед HIMO C26 позволит вам быстро
+                и&nbsp;с&nbsp;комфортом добраться до&nbsp;места работы или учебы
+                и&nbsp;не&nbsp;привязываться к&nbsp;городскому транспорту.
+                Велосипед обладает прочной конструкцией и&nbsp;внушительным
+                запасом хода, чтобы стать надежным транспортным средством
+                в&nbsp;современных городских условиях. Легкая и&nbsp;прочная
+                рама, 26-дюймовые колеса и&nbsp;7-ступенчатая система
+                трансмиссии позволяют уверенно передвигаться не&nbsp;только
+                по&nbsp;асфальтированному дорожному полотну,
+                но&nbsp;и&nbsp;по&nbsp;сложной загородной трассе.
+              </p>
+            </div>
+            <div class="info__item">
+              <h2 class="info__item-title">Прочная и легкая рама</h2>
+              <p class="info__item-text">
+                Рама HIMO C26 изготовлена из&nbsp;прочного и&nbsp;легкого
+                алюминиевого сплава и&nbsp;отличается высокой надежностью,
+                устойчивостью в&nbsp;аварийных ситуациях, превосходной
+                управляемостью и&nbsp;комфортным передвижением по&nbsp;любой
+                дороге.
+              </p>
+            </div>
+            <div class="info__item">
+              <h2 class="info__item-title">
+                Комбинация режимов для увеличения запаса хода
+              </h2>
+              <p class="info__item-text">
+                Электровелосипед HIMO C26 обладает увеличенным запасом хода. Его
+                аккумулятор емкостью 10000 мАч с&nbsp;интеллектуальной системой
+                оптимизации энергопотребления позволяет проехать
+                до&nbsp;60&nbsp;км на&nbsp;одном заряде в&nbsp;режиме
+                электропривода. При использовании на&nbsp;некоторых участках
+                пути физической силы дальность хода увеличивается
+                до&nbsp;100&nbsp;км. Максимальная скорость передвижения HIMO C26
+                составляет 25&nbsp;км/ч.
+              </p>
+            </div>
+            <div class="info__item">
+              <h2 class="info__item-title">Надежная трансмиссия</h2>
+              <p class="info__item-text">
+                7-ступенчатая система трансмиссии обеспечивает плавное
+                и&nbsp;точное переключение передач, удобное управление скоростью
+                и&nbsp;надежность в&nbsp;работе. Переключая передачи,
+                вы&nbsp;сможете с&nbsp;минимальными усилиями заехать
+                на&nbsp;горку и&nbsp;безопасно скатиться вниз.
+              </p>
+            </div>
+            <div class="info__item">
+              <h2 class="info__item-title">Вся информация на ЖК-дисплее</h2>
+              <p class="info__item-text">
+                Вся информация на&nbsp;ЖК-дисплее Большой информативный дисплей,
+                вынесенный на&nbsp;рулевую стойку, отображает всю важную
+                информацию о&nbsp;работе HIMO C26&nbsp;в реальном времени.
+                Вы&nbsp;сможете узнать актуальную скорость передвижения, уровень
+                заряда или пройденный путь. Дисплей защищен от&nbsp;воздействия
+                внешних факторов по&nbsp;стандарту IPX7 и&nbsp;не&nbsp;боится
+                дождя и&nbsp;пыли.
+              </p>
+            </div>
+            <div class="info__item">
+              <h2 class="info__item-title">Удобное седло</h2>
+              <p class="info__item-text">
+                Электровелосипед HIMO C26 укомплектован велосипедным седлом
+                от&nbsp;известного бренда Selle Royal. Трехмерная гелевая
+                структура седла обеспечивает оптимальную упругость
+                и&nbsp;высокий комфорт во&nbsp;время езды.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="./js/slick.min.js"></script>
-  <script src="./js/main.js"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>

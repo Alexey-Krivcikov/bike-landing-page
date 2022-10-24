@@ -37,3 +37,13 @@
 /* ! bike-slider */
 @import url(../blocks/bike-slider/bike-slider.css);
 @import url(../blocks/bike-slider/__item/bike-slider__item.css);
+
+/* ! info */
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__img/info__img.css);
+@import url(../blocks/info/__inner/info__inner.css);
+@import url(../blocks/info/__item-text/info__item-text.css);
+@import url(../blocks/info/__item-title/info__item-title.css);
+@import url(../blocks/info/__item/info__item.css);
+@import url(../blocks/info/__list/info__list.css);
+@import url(../blocks/info/_place/info_place_root.css);
