@@ -1,4 +1,40 @@
 .bike-slider {
-  
+  cursor: pointer;
 }
 
+/* ! slider style */
+.bike-slider .slick-dots {
+  top: 52px;
+  right: 0;
+}
+
+.slick-dots {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slick-dots li + li {
+  padding-top: 10px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  padding: 0;
+  border: none;
+  background-color: #131313;
+  width: 2px;
+  height: 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.slick-dots button:hover {
+  background-color: #FF4040;
+}
+
+.slick-active button {
+  background-color: #FF4040;
+}
