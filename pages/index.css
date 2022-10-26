@@ -47,3 +47,19 @@
 @import url(../blocks/info/__item/info__item.css);
 @import url(../blocks/info/__list/info__list.css);
 @import url(../blocks/info/_place/info_place_root.css);
+
+/* ! feature */
+@import url(../blocks/feature/feature.css);
+@import url(../blocks/feature/__img/feature__img.css);
+@import url(../blocks/feature/__inner/feature__inner.css);
+@import url(../blocks/feature/__items/feature__items.css);
+@import url(../blocks/feature/__title/feature__title.css);
+
+/* ! feature-item */
+@import url(../blocks/feature-item/feature-item.css);
+@import url(../blocks/feature-item/__unit/feature-item__unit.css);
+@import url(../blocks/feature-item/__list-title/feature-item__list-title.css);
+@import url(../blocks/feature-item/__list/feature-item__list.css);
+@import url(../blocks/feature-item/__text/feature-item__text.css);
+@import url(../blocks/feature-item/__title/feature-item__title.css);
+@import url(../blocks/feature/_place/feature_place_root.css);

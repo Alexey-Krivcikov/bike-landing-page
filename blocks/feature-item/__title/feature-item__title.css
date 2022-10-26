@@ -1,0 +1,8 @@
+.feature-item__title {
+  padding: 2px 0 3px;
+  margin: 0 0 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #131313;
+}

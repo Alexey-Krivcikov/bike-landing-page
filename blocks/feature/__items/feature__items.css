@@ -1,0 +1,9 @@
+.feature__items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
