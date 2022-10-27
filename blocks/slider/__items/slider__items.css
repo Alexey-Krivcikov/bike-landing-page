@@ -1,0 +1,10 @@
+.slider__items {
+  
+}
+
+/* ! slider */
+
+.slider__items .slick-dots {
+  top: 0;
+  left: 0;
+}
