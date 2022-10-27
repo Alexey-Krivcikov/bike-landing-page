@@ -51,7 +51,7 @@
               шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное
               сидение делают каждую поездку гораздо приятнее.
             </p>
-            <a href="#" class="bike__link">заказать</a>
+            <a href="#" class="button">заказать</a>
           </div>
           <div class="bike__column bike__column-slider">
             <div class="bike-slider">
@@ -334,6 +334,54 @@
         </div>
       </div>
     </div>
+    <!-- TODO подключить стили и доделать форму -->
+    <section class="price">
+      <div class="container">
+        <div class="price__inner">
+          <form class="form" action="#">
+            <h5 class="form__title">
+              Заказать
+            </h5>
+            <p class="form__text">
+              Если Вы&nbsp;хотите заказать велосипед, оставьте свой контакт и&nbsp;наш менеджер перезвонит вам в&nbsp;ближайшее время
+            </p>
+            <input class="form__input-name" type="text" placeholder="имя">
+            <input class="form__input-name" type="tel" placeholder="телефон">
+            <p class="form__text-selector">выберите желаемый цвет</p>
+            <div class="form__label-box">
+              <label class="form__label">
+                <input class="form__input-radio" type="radio">
+                <div class="form__bike">
+                  <img class="form__bike-img" src="./images/bike-grey.png" alt="серый велосипед">
+                  <p class="form__bike-price">68999 руб.</p>
+                </div>
+                <div class="form__radio-style form__radio-style_color_grey"></div>
+              </label>
+
+              <label class="form__label">
+                <input class="form__input-radio" type="radio">
+                <div class="form__bike">
+                  <img class="form__bike-img" src="./images/bike-white.png" alt="белый велосипед">
+                  <p class="form__bike-price">69999 руб.</p>
+                </div>
+                <div class="form__radio-style form__radio-style_color_white"></div>
+              </label>
+              
+              <label class="form__label">
+                <input class="form__input-radio" type="radio">
+                <div class="form__bike">
+                  <img class="form__bike-img" src="./images/bike-red.png" alt="красный велосипед">
+                  <p class="form__bike-price">67999 руб.</p>
+                </div>
+                <div class="form__radio-style form__radio-style_color_red"></div>
+              </label>
+
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
