@@ -1,0 +1,7 @@
+.footer__link {
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+}

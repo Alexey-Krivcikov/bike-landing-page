@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="scroll">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,13 +18,13 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="#" class="menu__link">описание</a>
+                <a href="#info" class="menu__link">описание</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">характеристики</a>
+                <a href="#feature" class="menu__link">характеристики</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">стоимость</a>
+                <a href="#price" class="menu__link">стоимость</a>
               </li>
             </ul>
           </nav>
@@ -51,7 +51,7 @@
               шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное
               сидение делают каждую поездку гораздо приятнее.
             </p>
-            <a href="#" class="button button_place_bike">заказать</a>
+            <a class="button button_place_bike" href="#price" >заказать</a>
           </div>
           <div class="bike__column bike__column-slider">
             <div class="bike-slider">
@@ -101,7 +101,7 @@
       </div>
     </section>
 
-    <section class="info info_place_root">
+    <section class="info info_place_root" id="info">
       <div class="container">
         <div class="info__inner">
           <img
@@ -186,7 +186,7 @@
       </div>
     </section>
 
-    <section class="feature feature_place_root">
+    <section class="feature feature_place_root" id="feature">
       <div class="container">
         <h3 class="feature__title">Характеристики</h3>
         <div class="feature__inner">
@@ -346,8 +346,8 @@
         </div>
       </div>
     </div>
-    <!-- TODO доделать форму -->
-    <section class="price price_place_root">
+
+    <section class="price price_place_root" id="price">
       <div class="container">
         <div class="price__inner">
           <form class="form" action="#">
@@ -410,6 +410,32 @@
         </div>
       </div>
     </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a href="#" class="footer__link">Политика конфиденциальности</a>
+          <div class="footer__social">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-icon" lang="en" src="./images/inst-icon.svg" alt="instagram">
+            </a>
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-icon" lang="en" src="./images/facebook-icon.svg" alt="facebook">
+            </a>
+          </div>
+          <div class="footer__contacts">
+            <a class="footer__contacts-link" href="tel:+380506777777">
+              <img class="footer__contacts-icon" src="./images/phone-icon.svg" alt="телефон">
+              <span>+38 050 677 77 77</span>
+            </a>
+            <a class="footer__contacts-link" href="mailto:elektrobikeukr@gmail.com">
+              <img class="footer__contacts-icon" src="./images/mail-icon.svg" alt="почта">
+              <span>elektrobikeukr@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>

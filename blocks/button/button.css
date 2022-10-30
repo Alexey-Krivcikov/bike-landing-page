@@ -11,4 +11,10 @@
   direction: rtl;
   text-indent: -1.1em;
   cursor: pointer;
+  border: none;
+  transition: all .3s;
+}
+
+.button:hover {
+  background-color: #FF4040;
 }

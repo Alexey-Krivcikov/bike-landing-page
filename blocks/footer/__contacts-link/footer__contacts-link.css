@@ -1,0 +1,9 @@
+.footer__contacts-link {
+  display: flex;
+  gap: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+}
