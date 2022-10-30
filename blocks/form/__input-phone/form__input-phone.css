@@ -1,4 +1,4 @@
-.form__input-name {
+.form__input-phone {
   width: 100%;
   border: none;
   border-bottom: 1px solid #131313;
@@ -7,7 +7,7 @@
   outline: none;
 }
 
-.form__input-name::placeholder {
+.form__input-phone::placeholder {
   color: #6f6f6f;
   opacity: 0.5;
 }

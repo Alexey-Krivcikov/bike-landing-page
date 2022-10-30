@@ -35,6 +35,7 @@
 
 /* ! button */
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_place/button_place_bike.css);
 
 /* ! bike-slider */
 @import url(../blocks/bike-slider/bike-slider.css);
@@ -71,3 +72,26 @@
 @import url(../blocks/slider/__img/slider__img.css);
 @import url(../blocks/slider/__item/slider__item.css);
 @import url(../blocks/slider/__items/slider__items.css);
+
+/* ! price */
+@import url(../blocks/price/price.css);
+@import url(../blocks/price/__inner/price__inner.css);
+@import url(../blocks/price/_place/price_place_root.css);
+
+/* ! form */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__bike-img/form__bike-img.css);
+@import url(../blocks/form/__bike-price/form__bike-price.css);
+@import url(../blocks/form/__bike/form__bike.css);
+@import url(../blocks/form/__input-name/form__input-name.css);
+@import url(../blocks/form/__input-radio/form__input-radio.css);
+@import url(../blocks/form/__label-box/form__label-box.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__radio-style/form__radio-style.css);
+@import url(../blocks/form/__text-selector/form__text-selector.css);
+@import url(../blocks/form/__text/form__text.css);
+@import url(../blocks/form/__title.css/form__title.css);
+@import url(../blocks/form/__input-phone/form__input-phone.css);
+@import url(../blocks/form/__radio-style/_color/form__radio-style_color_grey.css);
+@import url(../blocks/form/__radio-style/_color/form__radio-style_color_white.css);
+@import url(../blocks/form/__radio-style/_color/form__radio-style_color_red.css);

@@ -1,0 +1,5 @@
+.form__label-box {
+  display: flex;
+  gap: 23px;
+  margin-bottom: 50px;
+}

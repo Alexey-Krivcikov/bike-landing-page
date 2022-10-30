@@ -51,7 +51,7 @@
               шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное
               сидение делают каждую поездку гораздо приятнее.
             </p>
-            <a href="#" class="button">заказать</a>
+            <a href="#" class="button button_place_bike">заказать</a>
           </div>
           <div class="bike__column bike__column-slider">
             <div class="bike-slider">
@@ -185,7 +185,7 @@
         </div>
       </div>
     </section>
-  
+
     <section class="feature feature_place_root">
       <div class="container">
         <h3 class="feature__title">Характеристики</h3>
@@ -323,61 +323,89 @@
       <div class="container">
         <div class="slider__items">
           <div class="slider__item">
-            <img class="slider__img" src="./images/slider_1.jpg" alt="серый велосипед" >
+            <img
+              class="slider__img"
+              src="./images/slider_1.jpg"
+              alt="серый велосипед"
+            />
           </div>
           <div class="slider__item">
-            <img class="slider__img" src="./images/slider_2.jpg" alt="три велосипеда" >
+            <img
+              class="slider__img"
+              src="./images/slider_2.jpg"
+              alt="три велосипеда"
+            />
           </div>
           <div class="slider__item">
-            <img class="slider__img" src="./images/slider_3.jpg" alt="белый велосипед" >
+            <img
+              class="slider__img"
+              src="./images/slider_3.jpg"
+              alt="белый велосипед"
+            />
           </div>
         </div>
       </div>
     </div>
-    <!-- TODO подключить стили и доделать форму -->
-    <section class="price">
+    <!-- TODO доделать форму -->
+    <section class="price price_place_root">
       <div class="container">
         <div class="price__inner">
           <form class="form" action="#">
-            <h5 class="form__title">
-              Заказать
-            </h5>
+            <h5 class="form__title">Заказать</h5>
             <p class="form__text">
-              Если Вы&nbsp;хотите заказать велосипед, оставьте свой контакт и&nbsp;наш менеджер перезвонит вам в&nbsp;ближайшее время
+              Если Вы&nbsp;хотите заказать велосипед, оставьте свой контакт
+              и&nbsp;наш менеджер перезвонит вам в&nbsp;ближайшее время
             </p>
-            <input class="form__input-name" type="text" placeholder="имя">
-            <input class="form__input-name" type="tel" placeholder="телефон">
+            <input class="form__input-name" type="text" placeholder="имя" />
+            <input class="form__input-phone" type="tel" placeholder="телефон" />
             <p class="form__text-selector">выберите желаемый цвет</p>
             <div class="form__label-box">
               <label class="form__label">
-                <input class="form__input-radio" type="radio">
+                <input class="form__input-radio" type="radio" name="bike" value="grey-bike"/>
                 <div class="form__bike">
-                  <img class="form__bike-img" src="./images/bike-grey.png" alt="серый велосипед">
-                  <p class="form__bike-price">68999 руб.</p>
+                  <img
+                    class="form__bike-img"
+                    src="./images/bike-grey.png"
+                    alt="серый велосипед"
+                  />
+                  <p class="form__bike-price"><span>68999 руб.</span></p>
                 </div>
-                <div class="form__radio-style form__radio-style_color_grey"></div>
+                <div
+                  class="form__radio-style form__radio-style_color_grey"
+                ></div>
               </label>
 
               <label class="form__label">
-                <input class="form__input-radio" type="radio">
+                <input class="form__input-radio" type="radio" name="bike" value="white-bike" checked/>
                 <div class="form__bike">
-                  <img class="form__bike-img" src="./images/bike-white.png" alt="белый велосипед">
-                  <p class="form__bike-price">69999 руб.</p>
+                  <img
+                    class="form__bike-img"
+                    src="./images/bike-white.png"
+                    alt="белый велосипед"
+                  />
+                  <p class="form__bike-price"><span>69999 руб.</span></p>
                 </div>
-                <div class="form__radio-style form__radio-style_color_white"></div>
-              </label>
-              
-              <label class="form__label">
-                <input class="form__input-radio" type="radio">
-                <div class="form__bike">
-                  <img class="form__bike-img" src="./images/bike-red.png" alt="красный велосипед">
-                  <p class="form__bike-price">67999 руб.</p>
-                </div>
-                <div class="form__radio-style form__radio-style_color_red"></div>
+                <div
+                  class="form__radio-style form__radio-style_color_white"
+                ></div>
               </label>
 
+              <label class="form__label">
+                <input class="form__input-radio" type="radio" name="bike" value="red-bike"/>
+                <div class="form__bike">
+                  <img
+                    class="form__bike-img"
+                    src="./images/bike-red.png"
+                    alt="красный велосипед"
+                  />
+                  <p class="form__bike-price"><span>67999 руб.</span></p>
+                </div>
+                <div
+                  class="form__radio-style form__radio-style_color_red"
+                ></div>
+              </label>
             </div>
-
+            <button class="button" type="submit">заказать</button>
           </form>
         </div>
       </div>
