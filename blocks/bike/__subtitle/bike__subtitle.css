@@ -4,3 +4,12 @@
   color: #6f6f6f;
   margin: 0 0 60px;
 }
+
+@media screen and (max-width: 670px) {
+  .bike__subtitle {
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 30px;
+  }
+}
+

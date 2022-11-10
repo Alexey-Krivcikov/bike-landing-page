@@ -4,7 +4,7 @@ $(function(){
     arrows: false,
     dots: true,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 1700
   });
 
   $('.slider__items').slick({
@@ -12,7 +12,7 @@ $(function(){
     dots: true,
     fade: true,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 1500
   });
 
   $(".menu").on("click","a", function (event) {

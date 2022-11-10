@@ -7,3 +7,9 @@
   flex-direction: column;
   gap: 30px;
 }
+
+@media screen and (max-width: 991px) {
+  .feature__items {
+    max-width: 100%;
+  }
+}

@@ -5,3 +5,9 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 670px) {
+  .bike__list {
+    flex-wrap: wrap;
+  }
+}

@@ -1,5 +1,11 @@
 .bike__column-slider {
-  flex-basis: 630px;
   margin-left: 30px;
   max-width: 630px;
+}
+
+@media screen and (max-width: 1100px) {
+  .bike__column-slider {
+    max-width: 100%;
+    margin: 0;
+  }
 }

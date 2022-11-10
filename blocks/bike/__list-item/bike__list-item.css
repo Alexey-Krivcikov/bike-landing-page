@@ -5,3 +5,10 @@
   align-items: center;
   min-height: 58px;
 }
+
+@media screen and (max-width: 670px) {
+  .bike__list-item {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+}

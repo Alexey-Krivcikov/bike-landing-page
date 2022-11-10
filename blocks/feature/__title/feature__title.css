@@ -5,3 +5,9 @@
   font-size: 16px;
   line-height: 19px;
 }
+
+@media screen and (max-width: 991px) {
+  .feature__title {
+    margin-bottom: 0;
+  }
+}

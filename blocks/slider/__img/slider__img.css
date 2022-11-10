@@ -2,3 +2,39 @@
   object-fit: cover;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1100px) {
+  .slider__img {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .slider__img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .slider__img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .slider__img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .slider__img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .slider__img {
+    height: 150px;
+  }
+}

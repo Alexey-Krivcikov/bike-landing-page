@@ -11,3 +11,22 @@
   background-color: #131313;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 640px) {
+  .menu__link {
+    padding: 25px 20px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .menu__link {
+    padding: 25px 0;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .menu__link {
+    font-size: 12px;
+  }
+}

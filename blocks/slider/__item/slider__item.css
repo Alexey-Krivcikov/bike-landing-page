@@ -2,3 +2,15 @@
   padding-left: 50px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 991px) {
+  .slider__item {
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .slider__item {
+    padding-left: 10px;
+  }
+}

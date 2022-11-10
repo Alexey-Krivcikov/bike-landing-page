@@ -1,3 +1,11 @@
 .feature__img {
   object-fit: cover;
 }
+
+@media screen and (max-width: 991px) {
+  .feature__img {
+    order: -1;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
