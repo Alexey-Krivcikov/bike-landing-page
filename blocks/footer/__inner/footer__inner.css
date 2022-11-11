@@ -4,3 +4,11 @@
   align-items: center;
   min-height: 100px;
 }
+
+@media (max-width: 580px) {
+  .footer__inner {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+  }
+}

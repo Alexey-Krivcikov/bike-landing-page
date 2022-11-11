@@ -1,0 +1,17 @@
+@media (max-width: 1140px) {
+  .form__bike-img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 991px) {
+  .form__bike-img {
+    width: 430px;
+  }
+}
+
+@media (max-width: 460px) {
+  .form__bike-img {
+    width: 270px;
+  }
+}

@@ -4,3 +4,24 @@
   right: 0;
   top: 0;
 }
+
+@media (max-width: 1140px) {
+  .form__bike {
+    top: 45px;
+  }
+}
+
+@media (max-width: 991px) {
+  .form__bike {
+    top: auto;
+    bottom: 85px;
+    left: 0;
+    right: auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .form__bike {
+    bottom: 50px;
+  }
+}
